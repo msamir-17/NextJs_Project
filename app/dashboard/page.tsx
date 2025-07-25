@@ -11,10 +11,6 @@ export default async function Page() {
     totalPaidInvoices,
     totalPendingInvoices,} = await fetchCardData();
     
-// Total amount of invoices collected.
-// Total amount of invoices pending.
-// Total number of invoices.
-// Total number of customers.
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
